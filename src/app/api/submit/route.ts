@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 const NOTIFY_EMAIL = "hello@spatial-wellness.com";
-const SUBSTACK_URL = "https://houseofreturn.substack.com";
+const SUBSTACK_URL = "https://substack.com/@spatialwellness";
 
 export async function POST(req: Request) {
   const { name, email, organisation, workspaceType, subscribe, scores } = await req.json();
